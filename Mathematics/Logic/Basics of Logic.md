@@ -22,6 +22,7 @@ F & T
 \end{array}
 $$
 
-
+##### Conjunction
+For two logical statements $A, B$, $A\wedge B$ denotes the [conjunction]. 
 
 
