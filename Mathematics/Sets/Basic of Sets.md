@@ -1,4 +1,4 @@
-`'`A [set] is a collection of distinct objects into a whole.
+A [set] is a collection of distinct objects into a whole.
 Such an object $x$ inside a set $M$ is called **an element** of $M$, written $x \in M$.
 If $x$ is not such an object inside the set $M$, we write $x \not\in M$ (equals to $\lnot (x \in M)$).
 
@@ -60,3 +60,9 @@ $$A_{1} = \{1\}, A_{2}=\{2\},\dots$$
 $$I= \mathbb{N}, A_{i} = \{i\}$$
 $$\text{ Then:} \bigcup_{i\in I}A_{i}=\{1,2,3,\dots\} = \mathbb{N}$$
 $$\text{ And } \bigcap_{i\in I}A_{i}=\emptyset$$
+##### Power set
+$$\mathcal{P}(A) := \big\{X|X\subseteq \}$$
+$$A:=\{1,2\} \text{ }\mathcal{P}(A) := \big\{\emptyset, A, \{1\}, \{2\}\big\}$$
+$$|A|=2 \text{ and } |\mathcal{P}(A)|=2^{|A|}=4$$
+
+............![[Pasted image 20251102170135.png]]............

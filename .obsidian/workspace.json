@@ -11,12 +11,14 @@
             "id": "c7fc9a04945403cc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Imgs/Pasted image 20251102092049.png"
+                "file": "Mathematics/Sets/Basic of Sets.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20251102092049"
+              "icon": "lucide-file",
+              "title": "Basic of Sets"
             }
           }
         ]
@@ -164,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 679.5
+    "width": 335.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,14 +180,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e5ff0ed2a8972507",
+  "active": "c7fc9a04945403cc",
   "lastOpenFiles": [
+    "Pasted image 20251102170135.png",
+    "Pasted image 20251102165909.png",
+    "Mathematics/Logic/Basics of Logic.md",
     "Mathematics/Sets/Basic of Sets.md",
+    "Imgs/Pasted image 20251102092049.png",
     "Imgs",
     "Imgs/Pasted image 20251102093300.png",
     "Imgs/Pasted image 20251102092928.png",
-    "Mathematics/Logic/Basics of Logic.md",
-    "Imgs/Pasted image 20251102092049.png",
     "LICENSE",
     "Mathematics/Sets",
     "Mathematics/Logic",
