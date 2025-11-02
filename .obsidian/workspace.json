@@ -11,14 +11,12 @@
             "id": "c7fc9a04945403cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Mathematics/Logic/Basics of Logic.md",
-                "mode": "source",
-                "source": false
+                "file": "Imgs/Pasted image 20251102092049.png"
               },
-              "icon": "lucide-file",
-              "title": "Basics of Logic"
+              "icon": "lucide-image",
+              "title": "Pasted image 20251102092049"
             }
           }
         ]
@@ -180,11 +178,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "22a2db490daed7c0",
+  "active": "e5ff0ed2a8972507",
   "lastOpenFiles": [
-    "LICENSE",
+    "Mathematics/Sets/Basic of Sets.md",
+    "Imgs",
+    "Imgs/Pasted image 20251102093300.png",
+    "Imgs/Pasted image 20251102092928.png",
     "Mathematics/Logic/Basics of Logic.md",
-    "Sans titre.md",
+    "Imgs/Pasted image 20251102092049.png",
+    "LICENSE",
     "Mathematics/Sets",
     "Mathematics/Logic",
     "Mathematics",
