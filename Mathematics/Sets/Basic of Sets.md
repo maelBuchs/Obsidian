@@ -66,3 +66,19 @@ $$A:=\{1,2\} \text{ }\mathcal{P}(A) := \big\{\emptyset, A, \{1\}, \{2\}\big\}$$
 $$|A|=2 \text{ and } |\mathcal{P}(A)|=2^{|A|}=4$$
 
 ............![[Pasted image 20251102170135.png]]............
+
+
+##### Cartesian product
+
+For two sets $A,B$, the **cartesian product** writen $A\times B$ is the set of all ordered pairs $(a,b)$ where $a \in A$ and $b \in B$.
+
+![[Pasted image 20251103135406.png]]
+###### Definition of an ordered pair (by [Kuratowski](https://math.stackexchange.com/questions/1767604/please-explain-kuratowski-definition-of-ordered-pairs))
+
+For elements $x, y$, write $(x, y):=\big\{\{x\},\{x,y\}\big\}$ 
+$$(x,y) = (\tilde{x}, \tilde{y}) \iff \{x\} =\{\tilde{x}\} \land\{y\}=\{\tilde{y}\}$$$$\iff x=\tilde{x} \land y=\tilde{y}$$
+###### Definition of a [cartesian product]
+
+$$
+A\times B:=\{(a,b)|a\in A\land b\in B\}$$
+
