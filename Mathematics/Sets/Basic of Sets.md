@@ -82,3 +82,11 @@ $$(x,y) = (\tilde{x}, \tilde{y}) \iff \{x\} =\{\tilde{x}\} \land\{y\}=\{\tilde{y
 $$
 A\times B:=\{(a,b)|a\in A\land b\in B\}$$
 
+![[Pasted image 20251107133735.png]]
+
+A subset $G_{f}\subseteq A \times B$ is called a [[function]] if ($\forall x \forall y \tilde{\forall}y\text{ } (x,y)\in G_{f}\land(x,\tilde{y}\in G_{f} \rightarrow y=\tilde{y})$) is true. (All values of x gives only one value of y)
+![[Pasted image 20251107134247.png]]
+*The first one is a f(), the 2nd is not*
+
+
+![[Map]]
