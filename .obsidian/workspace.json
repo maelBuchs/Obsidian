@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "function.md",
+                "file": "Linux/Kernel Dev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "function"
+              "title": "Kernel Dev"
+            }
+          },
+          {
+            "id": "5e5ba1126217256b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cybersecurity/Writeups/07-03 HTB - Facts.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "07-03 HTB - Facts"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -78,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "b15404288e5341d0",
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Logic/Basics of Logic.md",
+                "file": "Cybersecurity/Writeups/07-03 HTB - Facts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rétrolien pour Basics of Logic"
+              "title": "Rétrolien pour 07-03 HTB - Facts"
             }
           },
           {
@@ -166,40 +181,47 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 798.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Créer une nouvelle base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e5ff0ed2a8972507",
+  "active": "22a2db490daed7c0",
   "lastOpenFiles": [
+    "Cybersecurity/Writeups/HTB - CCTV.md",
+    "Imgs/Pasted image 20260307165801.png",
+    "Cybersecurity/Writeups/10-03 HTB - Wingdata.md",
+    "Imgs/Pasted image 20260310122027.png",
+    "Imgs/Pasted image 20260309152617.png",
+    "Imgs/Pasted image 20260309112703.png",
+    "Cybersecurity/Writeups/07-03 HTB - Facts.md",
+    "Imgs/Pasted image 20260307182506.png",
+    "Imgs/Pasted image 20260307181214.png",
+    "Imgs/Pasted image 20260307180111.png",
+    "Imgs/Pasted image 20260307174332.png",
+    "Imgs/Pasted image 20260307174306.png",
+    "Imgs/Pasted image 20260307174235.png",
+    "Cybersecurity/Untitled.md",
+    "Cybersecurity/Writeups",
+    "Cybersecurity",
+    "Mathematics/Logic/Basics of Logic.md",
+    "function.md",
     "Linux/Kernel Dev.md",
     "Linux",
     "Mathematics/Sets/Map.md",
     "Mathematics/Sets/Basic of Sets.md",
     "Mathematics/Sets/Range.md",
-    "function.md",
-    "Imgs/Pasted image 20251107142618.png",
-    "Imgs/Pasted image 20251103135406.png",
-    "Imgs/Pasted image 20251107134247.png",
-    "Imgs/Pasted image 20251107133735.png",
-    "Mathematics/Logic/Basics of Logic.md",
     "Kuratowski.md",
-    "Imgs/Pasted image 20251102170135.png",
-    "Imgs/Pasted image 20251102165909.png",
-    "Imgs/Pasted image 20251102092049.png",
     "Imgs",
-    "Imgs/Pasted image 20251102093300.png",
-    "Imgs/Pasted image 20251102092928.png",
     "LICENSE",
     "Mathematics/Sets",
     "Mathematics/Logic",

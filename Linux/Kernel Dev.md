@@ -2,6 +2,8 @@
 `sudo insmod module.ko` Load a module
 `sudo rmmod module` Remove the module
 `dmesg` Check the output
+`sudo modinfo module.ko` Read module data
+`sudo depmod -a` reload modules
 
 basic Makefile for .ko
 
@@ -32,3 +34,6 @@ MODULE_LICENSE("GPL");
 MODULE_DESCRIPTION("Simple Hello World Module");
 MODULE_AUTHOR("Nom");
 ```
+
+`/lib/modules/$(uname -r)/kernel/drivers/usb/` usb module dir
+
