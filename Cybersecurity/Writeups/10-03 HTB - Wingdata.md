@@ -26,3 +26,17 @@ anonymous:d67f86152e5c4df1b0ac4a18d3ca4a89c1b12e6b748ed71d01aeb92341927bca
 admin:a8339f8e4465a9c47158394d8efe7cc45a5f361ab983844c8562bef2193bafba
 
 ```
+
+thx to hashcat i get
+`!#7Blushing^*Bride5`
+as wacky's pass
+
+as wacky i run linpeas and find a compromised sudo version
+
+![[Pasted image 20260313180429.png]]
+
+sudo -l
+
+CVE-tar
+
+root avc backup tool
