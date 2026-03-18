@@ -422,6 +422,56 @@ your token is 2A31L79asukciNyi8uppkEuSx
 0xb7e454d3 in __libc_start_main () from /lib/i386-linux-gnu/libc.so.6
 # level14
 
+nofile in ls -la nor find / -user flag14
+
+so i try to look inside /bin/getflag binary
+```
+(gdb) run
+Starting program: /bin/getflag
+You should not reverse this
+```
+ok let's do the opposite of what it's telling
+
+in the disassembled main, a find this
+```
+   0x08048989 <+67>:    call   0x8048540 <ptrace@plt>
+```
+a call to ptrace, used to check if i'm in a debugger or not
+```
+  0x0804898e <+72>:    test   %eax,%eax
+```
+the it checks the result
+ez, let's change this to a "no i dont do anything weird"
+```
+(gdb) print $eax
+$2 = -1
+(gdb) set $eax = 0
+(gdb) print $eax
+$3 = 0
+(gdb) continue
+Continuing.
+Check flag.Here is your token :
+Nope there is no token here for you sorry. Try again :)
+[Inferior 1 (process 2297) exited normally]
+```
+i also find that the binary checks the UID 
+```  
+0x08048afd <+439>:   call   0x80484b0 <getuid@plt>
+```
+good, now we have to find where the UID is check, and our with the flag14 UID (both found in /etc/passwd)
+```
+level14:x:2014:2014::/home/user/level14:/bin/bash
+flag14:x:3014:3014::/home/flag/flag14:/bin/bash
+```
+so let's edit eax once more
+```
+0x08048b02 in main ()
+(gdb) set $eax = 3014
+(gdb) c
+Continuing.
+Check flag.Here is your token : 7QiHafiNa3HVozsaXkawuYrTstxbpABHD8CPnHJ
+[Inferior 1 (process 2316) exited normally]
+```
 
 # tools
 -john
